@@ -16,6 +16,14 @@ var header = `<div class="container-fluid">
                         <li><a href="./blog-details.html">Estrategia</a></li>
                     </ul>
                 </li>
+                <li><a href="#">Videos</a>
+                    <ul class="dropdown">
+                        <li><a href="./about.html">Aperturas</a></li>
+                        <li><a href="./episodes-details.html">Medio juego</a></li>
+                        <li><a href="./blog.html">Finales</a></li>
+                        <li><a href="./blog-details.html">Estrategia</a></li>
+                    </ul>
+                </li>
                 <li><a href="./about.html">Mi cuenta</a></li>
                 <li><a href="./contact.html">Contacto</a></li>
             </ul>
