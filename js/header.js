@@ -7,8 +7,16 @@ var header = `<div class="container-fluid">
         </div>
         <nav class="header__menu mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Inicio</a></li>
-                <li><a href="#">Cursos</a>
+                <li><a href="./index.html">Inicio</a></li>
+                <li class="active"><a href="#">Cursos</a>
+                    <ul class="dropdown">
+                        <li><a href="./about.html">Aperturas</a></li>
+                        <li><a href="./episodes-details.html">Medio juego</a></li>
+                        <li><a href="./blog.html">Finales</a></li>
+                        <li><a href="./blog-details.html">Estrategia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Videos</a>
                     <ul class="dropdown">
                         <li><a href="./about.html">Aperturas</a></li>
                         <li><a href="./episodes-details.html">Medio juego</a></li>

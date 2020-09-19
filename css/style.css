@@ -2,9 +2,10 @@
 html,
 body {
 	height: 100%;
-	font-family: "Nunito", sans-serif;
+	font-family: "D-DIN", sans-serif;
+	font-size:1.2em;
 	-webkit-font-smoothing: antialiased;
-/* 	font-smoothing: antialiased; */
+/*  	font-smoothing: antialiased;  */
 }
 
 h1,
@@ -16,7 +17,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Nunito", sans-serif;
+	font-family: "Gobold Bold", sans-serif;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h6 {
 
 p {
 	font-size: 15px;
-	font-family: "Nunito", sans-serif;
+	font-family: "D-DIN", sans-serif;
 	color: #8d8d8d;
 	font-weight: 400;
 	line-height: 25px;
@@ -2955,4 +2956,8 @@ ol {
 	line-height: 200px;
 	font-size: 80px;
 	color: white;
+  }
+  .price{
+	color: #353535;
+	font-family: "D-DIN";
   }
