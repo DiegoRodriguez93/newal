@@ -3,7 +3,7 @@ var footer = `<div class="container">
     <div class="row">
         <div class="col-lg-5">
             <div class="footer__subscriber__text">
-                <h3>Suscribirme a las ofertar por email !</h3>
+                <h3>suscribirme a las ofertar por email !</h3>
                 <p>Al suscribirte recibirás todas las información sobre nuevos cursos y novedades</p>
             </div>
         </div>
