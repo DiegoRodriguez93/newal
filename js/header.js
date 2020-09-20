@@ -9,20 +9,12 @@ var header = `<div class="container-fluid">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
                 <li class="active"><a href="#">Cursos</a>
-                    <ul class="dropdown">
+                    <!-- <ul class="dropdown">
                         <li><a href="./about.html">Aperturas</a></li>
                         <li><a href="./episodes-details.html">Medio juego</a></li>
                         <li><a href="./blog.html">Finales</a></li>
                         <li><a href="./blog-details.html">Estrategia</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Videos</a>
-                    <ul class="dropdown">
-                        <li><a href="./about.html">Aperturas</a></li>
-                        <li><a href="./episodes-details.html">Medio juego</a></li>
-                        <li><a href="./blog.html">Finales</a></li>
-                        <li><a href="./blog-details.html">Estrategia</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li><a href="./about.html">Mi cuenta</a></li>
                 <li><a href="./contact.html">Contacto</a></li>

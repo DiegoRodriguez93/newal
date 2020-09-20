@@ -10,38 +10,46 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3
+{
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
 	font-family: "Gobold Bold", sans-serif;
 }
 
+h4,
+h5,
+h6
+{
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "D-DIN", sans-serif;
+}
+
 h1 {
-	font-size: 70px;
+	font-size: 4.375em;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 2.25em;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 p {
@@ -2961,3 +2969,14 @@ ol {
 	color: #353535;
 	font-family: "D-DIN";
   }
+
+  .curso_reedirect{
+	  cursor: pointer;
+  }
+
+  .curso_reedirect:hover{
+	opacity: 0.95;
+}
+.gobold{
+	font-family: "Gobold Bold"!important;
+}
