@@ -28,5 +28,5 @@ pgnData = [
     '[Black "Alexander Corwin et al."]',
     '',
     '1. d4 d5 2. c4 dxc4 3. Nc3 Nf6 4. e3 a6 5. Bxc4 e6 6. Nf3 b5 7. Bb3 Bd6 8. e4 b4 9. e5 bxc3 10. bxc3 Bb7 11. O‑O O‑O 12. exd6 cxd6 13. Ng5 Qa5 14. Qd3 h6 15. Nf3 Be4 16. Qd2 Nc6 17. Bb2 e5 18. Rac1 Bxf3 19. gxf3 Nxd4 20. Qe3 Nxb3 21. axb3 Qa2 22. Rb1 Qxb3 23. Ba1 Qc2 24. Rb2 Qg6+ 25. Kh1 Nd5 26. Qd2 Nf4 27. Rg1 Qh5 28. Rg3 Rfc8 29. Rb1 Qf5 30. Re1 Nh5 31. Rg2 Qxf3 32. Re3 Qb7 33. f3 Nf4 34. Rg4 Rc6 35. Rg1 Rb6 36. Qc2 Rb8 37. Qe4 Qc8 38. Ree1 a5 39. Rd1 Qc5 40. Rgf1 f6 41. Qf5 d5 42. Rg1 R6b7 43. Rdf1 Qb5 44. c4 Qxc4 45. Re1 Qb3 46. Rgf1 a4 47. Bd4 Qd3 48. Qxd3 Nxd3 49. Rd1 Rb3 50. Bg1 a3 51. Ra1 Ra8 52. Rfd1 1-0'
-  ],
+  ]
 ];

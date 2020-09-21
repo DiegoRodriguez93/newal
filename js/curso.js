@@ -8,8 +8,6 @@
     --------------------*/
     $(window).on('load', function () {
 
-
-
         const params    = new URL(location.href).searchParams;
         const curso     = params.get('curso');
         const capitulo  = params.get('capitulo');
@@ -22,6 +20,12 @@
                 console.log(data)
                 localStorage.setItem('data',data)
                 let source = '';
+
+                if(data.error){
+                    $(".loader").fadeOut();
+                    $("#preloder").delay(500).fadeOut("slow");
+                    return false;
+                }
 
                 $.each(data.video_data, function (i, v) { 
                      source += `<source
@@ -52,11 +56,13 @@
                   `);
 
                   //capitulos right side
+                  $('#player').css('display', 'block');
+
                   let capitulos = '<h4>Capítulos</h4>';
 
                   $.each(data.capitulos, function (i, v) { 
                        capitulos += `
-                    <a href="#" class="sidebar__recent__item">
+                    <a href="curso.html?curso=${data.curso[0].url}&capitulo=${v.number}" class="sidebar__recent__item">
                        <h6>${v.name}</h6>
                        <p><span class="icon_profile"></span> ${v.profesor}</p>
                    </a>`
@@ -67,6 +73,7 @@
                   //capitulos bottom side
 
 
+                  $('.episodes__breadcrumb__text').html(`<h2>${data.curso[0].name}</h2>`);
 
                   
                 $(".loader").fadeOut();
