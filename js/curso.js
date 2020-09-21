@@ -20,6 +20,7 @@
             dataType: "JSON",
             success: function (data) {
                 console.log(data)
+                localStorage.setItem('data',data)
                 let source = '';
 
                 $.each(data.video_data, function (i, v) { 
@@ -50,6 +51,7 @@
                   <p>${data.capitulo_actual.descripcion}</p>
                   `);
 
+                  //capitulos right side
                   let capitulos = '<h4>Capítulos</h4>';
 
                   $.each(data.capitulos, function (i, v) { 
@@ -61,6 +63,10 @@
                   });
 
                   $('.sidebar__recent').html(capitulos);
+
+                  //capitulos bottom side
+
+
 
                   
                 $(".loader").fadeOut();
