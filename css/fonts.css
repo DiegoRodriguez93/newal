@@ -1,0 +1,17 @@
+@font-face {font-family: "Gobold Bold";
+    src: url("https://db.onlinewebfonts.com/t/21b941ca8b29395a86a124a3fc98d504.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/21b941ca8b29395a86a124a3fc98d504.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/21b941ca8b29395a86a124a3fc98d504.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/21b941ca8b29395a86a124a3fc98d504.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/21b941ca8b29395a86a124a3fc98d504.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/21b941ca8b29395a86a124a3fc98d504.svg#Gobold Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "D-DIN";
+    src: url("https://db.onlinewebfonts.com/t/97294bc26984beb9185137b039854f9b.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/97294bc26984beb9185137b039854f9b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/97294bc26984beb9185137b039854f9b.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/97294bc26984beb9185137b039854f9b.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/97294bc26984beb9185137b039854f9b.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/97294bc26984beb9185137b039854f9b.svg#D-DIN") format("svg"); /* iOS 4.1- */
+}
