@@ -18,7 +18,7 @@
             dataType: "JSON",
             success: function (data) {
                 console.log(data)
-                localStorage.setItem('data',data)
+                localStorage.setItem('data',JSON.stringify(data))
                 let source = '';
 
                 if(data.error){
@@ -55,6 +55,8 @@
                   <p>${data.capitulo_actual.descripcion}</p>
                   `);
 
+                  $('.episodes__breadcrumb__text').html(`<h2>${data.curso[0].name}</h2>`); //name h2 del curso
+
                   //capitulos right side
                   $('#player').css('display', 'block');
 
@@ -70,10 +72,35 @@
 
                   $('.sidebar__recent').html(capitulos);
 
+                  let leftBottomPart = `<div class="col-lg-6 col-md-6 col-sm-6"></div>`;
+                  let rightBottomPart = '<div class="col-lg-6 col-md-6 col-sm-6"></div>';
+
                   //capitulos bottom side
+                  if(capitulo != 1){
+                      leftBottomPart = `<div class="col-lg-6 col-md-6 col-sm-6">
+                      <a href="curso.html?curso=${data.curso[0].url}&capitulo=${data.capitulos[data.capitulo_actual.number - 2].number}" class="episodes__details__btns__item">
+                          <p><span class="arrow_left"></span> Anterior Video</p>
+                          <h5>${data.capitulos[data.capitulo_actual.number - 2].name}</h5>
+                      </a>
+                    </div>`;
+                  }
+
+                  if(data.capitulos[data.capitulos.length - 1].number != capitulo){
+                    rightBottomPart = `<div class="col-lg-6 col-md-6 col-sm-6">
+                    <a href="curso.html?curso=${data.curso[0].url}&capitulo=${data.capitulos[data.capitulo_actual.number].number}"
+                    class="episodes__details__btns__item episodes__details__btns__item--next">
+                    <p>Siguiente Video <span class="arrow_right"></span></p>
+                    <h5>${data.capitulos[data.capitulo_actual.number].name}</h5>
+                </a>
+            </div>`;
+                  }
+
+                  $('.episodes__details__btns').append(leftBottomPart);
+                  $('.episodes__details__btns').append(rightBottomPart);
 
 
-                  $('.episodes__breadcrumb__text').html(`<h2>${data.curso[0].name}</h2>`);
+
+
 
                   
                 $(".loader").fadeOut();
