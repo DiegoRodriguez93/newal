@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Megapod Template">
+    <meta name="keywords" content="Megapod, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="chessboardjs/css/chessboard-0.3.0.min.css" />
+    <title>Ajedrez Latino</title>
+
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <!--   <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <style>
+        .breadcrumb-option {
+            padding-bottom:50px!important;
+        }
+        .highlight{
+            background-color:yellow!important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option spad set-bg" data-setbg="img/hero/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text episodes__breadcrumb__text">
+<!--                         <ul>
+                            <li><span class="icon_profile"></span> por GM Andrés Rodríguez</li>
+                            <li><span class="icon_tags_alt"></span> Aperturas</li>
+                        </ul> -->
+                        <h2>La revolución del Jovaba</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Breadcrumb Section End -->
+
+        <!-- Episodes Details Section Begin -->
+        <section class="episodes-details spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="episodes__details__content">
+                            <div class="episodes__details_video">
+                                <video id="player" style="display:none;" class="player" controls></video>
+                            </div>
+                            <div class="episodes__details__text">
+                                <h3>Curso no encontrado</h3>
+                            </div>
+
+                            <div class="episodes__details__desc">
+                                <div class="row">
+                                    <div class="col-lg-8 md-12">
+                                      <div id="board" style="width: 100%;"></div>
+                                      <div id="board-buttons">
+                                        <button type="button" class="btn btn-default" id="btnStart"><i class="fa fa-fast-backward fa-lg"></i></button>
+                                        <button type="button" class="btn btn-default" id="btnPrevious"><i class="fa fa-step-backward fa-lg"></i></button>
+                                        <button type="button" class="btn btn-default" id="btnNext"><i class="fa fa-step-forward fa-lg"></i></button>
+                                        <button type="button" class="btn btn-default" id="btnEnd"><i class="fa fa-fast-forward fa-lg"></i></button>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-4 md-12">
+                                      <form class="form-horizontal" role="form">
+                                          <label for="gameSelect">Elegir partida:</label>
+                                            <select id="gameSelect" class="form-control mb-3" onchange="loadGame(this.value);return false;"></select>
+                                      </form>
+                                      <div id="game-data">
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="episodes__details__btns row">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <div class="sidebar__recent">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Episodes Details Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg"></footer>
+<!-- Footer Section End -->
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+
+    <script src="chessboardjs/js/chessboard-0.3.0.min.js"></script>
+    <script src="chessjs/chess.js"></script>
+    <script src="data/games.js"></script>
+<script src="js/pgnviewer.js"></script>
+
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/curso.js"></script>
+
+</body>
+
+</html>

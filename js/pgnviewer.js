@@ -8,6 +8,7 @@ function writeGameText(g) {
   var gameHeaderText = '<h4>' + h.White + ' - ' + h.Black + '</h4>';
   gameHeaderText += '<h5>' + h.Event + ', ' + h.Site + ' ' + h.EventDate + '</h5>';
   var pgn = g.pgn();
+  console.log(pgn);
   var gameMoves = pgn.replace(/\[(.*?)\]/gm, '').replace(h.Result, '').trim();
 
   //format the moves so each one is individually identified, so it can be highlighted
